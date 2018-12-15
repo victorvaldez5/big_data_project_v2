@@ -18,11 +18,11 @@ pymongo @latest
 # To reproduce
 To reproduce the graphs you will need a plotly account
 
-*You must be running a mongod session for the data to import correctly
-*unzip the archives.zip
-*once the requirements are fullfiled you can run the following commands in order
+* You must be running a mongod session for the data to import correctly
+* unzip the archives.zip
+* once the requirements are fullfiled you can run the following commands in order
 
 run:
-*python utils.py 
-*spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.1 main.py
-*spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.1 NLP.py
+* python utils.py 
+* spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.1 main.py
+* spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.1 NLP.py
